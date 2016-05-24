@@ -1,0 +1,2825 @@
+/summon Villager ~1 ~ ~ {
+    Profession: 4,
+    CustomName: "Kris Barman",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Invulnerable: 1,
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "redstone",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "potion",tag:{CustomPotionEffects:[{Id:9,Amplifier: 0,Duration:600}],display:{Name:Vinkbier}},
+                    Count: 1
+                }
+            },fshie
+            {
+                buy: {
+                    id: "redstone",
+                    Count: 2
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "potion",tag:{CustomPotionEffects:[{Id:15,Amplifier: 0,Duration:600}],display:{Name:Jeneveraar}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "redstone",
+                    Count: 2
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "potion",tag:{CustomPotionEffects:[{Id:17,Amplifier: 0,Duration:600}],display:{Name:Holle Bolle liqueur}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "glowstone_dust",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "milk_bucket",
+                    Count: 1
+                }
+            }
+        ]
+    }
+}
+
+
++++++++++++++++++++++++++++++++++++++++++++
+
+/summon Villager ~1 ~ ~ {
+    Profession: 2,
+    CustomName: "O Plichter",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Invulnerable: 1,
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "leather_helmet",tag:{ench:[{id:34,lvl:3}],display:{Name:Petje}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "leather_chestplate",tag:{ench:[{id:34,lvl:3}],display:{Name:Borstding}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "leather_leggings",tag:{ench:[{id:34,lvl:3}],display:{Name:Broekzak}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "leather_boots",tag:{ench:[{id:34,lvl:3}],display:{Name:Boot mcbootface}},
+                    Count: 1
+                }
+            }
+        ]
+    }
+}
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+/summon Villager ~1 ~ ~ {
+    Profession: 2,
+    CustomName: "Ollie Plichter",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "stick",tag:{ench:[{id:34,lvl:3}],display:{Name:Toffe Toverstaf}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "stick",tag:{ench:[{id:61,lvl:3}],display:{Name:Kei goede Toverstaf}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "stick",tag:{ench:[{id:19,lvl:2}],display:{Name:Optater Toverstaf}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "stick",tag:{ench:[{id:18,lvl:1}],display:{Name:Spinnenrag Toverstaf}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "stick",tag:{ench:[{id:20,lvl:1}],display:{Name:Vlam in de pan Toverstaf}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "stick",tag:{ench:[{id:21,lvl:3}],display:{Name:Plunder Toverstaf}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "stick",tag:{ench:[{id:70,lvl:1}],display:{Name:Langdradige Toverstaf}},
+                    Count: 1
+                }
+            }
+        ]
+    }
+}
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++
+
+/summon Villager ~1 ~ ~ {
+    Profession: 2,
+    CustomName: "Fer Plichter",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "bread",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "stick",
+                    Count: 5
+                }
+            },
+            {
+                buy: {
+                    id: "bread",
+                    Count: 3
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "log",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "bread",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "glowstone_dust",
+                    Count: 1
+                }
+            }
+        ]
+    }
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++
+draad, boog, leer, pantoffels van dot
+
+id: "leather_boots",tag:{display:{Name:"Dienaar van DOT pantoffels",color:6556576}},
+
+ArmorItems:[{tag:{display:{Name:"Dienaar van DOT pantoffels",color:6556576}}
+301 leather_boots)
+
+/summon Villager ~1 ~ ~ {
+    Profession: 4,
+    CustomName: "Döppessjörger",
+    CustomNameVisible: 1,
+    Career: 2,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.knockbackResistance",
+            Base: "1f"
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        },
+        {
+            Name: "generic.maxHealth",
+            Base: 99999
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "bucket",
+                    Count: 3
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "iron_ingot",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "leather",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "glowstone_dust",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "leather_boots",tag:{display:{Name:"Dienaar van DOT pantoffels",color:6556576}},
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "emerald",
+                    Count: 9
+                }
+            },
+            {
+                buy: {
+                    id: "bow",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "glowstone_dust",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "string",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "redstone",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "arrow",
+                    Count: 2
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "redstone",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "redstone",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "arrow",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "netherrack",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "glowstone_dust",
+                    Count: 1
+                }
+            }
+        ]
+    }
+}
+
++++++++++++++++++++++++++++++++++++++++++++++++
+/summon Villager ~1 ~ ~ {
+    Profession: 2,
+    CustomName: "Mr. Fugite",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.knockbackResistance",
+            Base: "1f"
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "chorus_fruit",
+                    Count: 64
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 9
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "elytra",
+                    Count: 1
+                }
+            }
+        ]
+    }
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+/summon Villager ~1 ~ ~ {
+    Profession: 0,
+    CustomName: "Keuterboer",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.knockbackResistance",
+            Base: "1f"
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        },
+        {
+            Name: "generic.maxHealth",
+            Base: 99999
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "wooden_hoe",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "wheat",
+                    Count: 7
+                }
+            },
+            {
+                buy: {
+                    id: "dye",
+                    Count: 1,
+                    Damage: 15
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "wheat",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "dye",
+                    Count: 1,
+                    Damage: 15
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "melon",
+                    Count: 5
+                }
+            },
+            {
+                buy: {
+                    id: "dye",
+                    Count: 1,
+                    Damage: 15
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "pumpkin",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "bone",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "carrot",
+                    Count: 10
+                }
+            },
+            {
+                buy: {
+                    id: "bone",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "poisonous_potato",
+                    Count: 10
+                }
+            },
+            {
+                buy: {
+                    id: "rabbit_hide",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "apple",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "wool",
+                    Count: 1
+                },
+                buyB: {
+                    id: "mutton",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "wheat",
+                    Count: 6
+                }
+            },
+            {
+                buy: {
+                    id: "string",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "wheat",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "stone_hoe",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "wheat",
+                    Count: 9
+                }
+            },
+            {
+                buy: {
+                    id: "wool",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "wheat",
+                    Count: 3
+                }
+            },
+            {
+                buy: {
+                    id: "dye",
+                    Count: 1,
+                    Damage: 15
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "beetroot",
+                    Count: 5
+                }
+            }
+        ]
+    }
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+xxxxxxxxxxxxxxxxxx
+
+                sell: {
+                    id: "stick",tag:{ench:[{id:19,lvl:2}],display:{Name:Optater Toverstaf}},
+                    Count: 1
+                }
+
+
+/give @p minecraft:diamond_hoe 1 0 {CanDestroy:["minecraft:redstone_ore"]}
+xxxxxxxxxxxxxxxxxx
+
+
+
+/summon Villager ~1 ~ ~ {
+    Profession: 1,
+    CustomName: "Ambtenaar B. Craat",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Silent: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.knockbackResistance",
+            Base: "1f"
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        },
+        {
+            Name: "generic.maxHealth",
+            Base: 99999
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "iron_pickaxe",
+                    Count: 1
+                },
+                buyB: {
+                    id: "redstone",
+                    Count: 3
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "iron_pickaxe",tag:{CanDestroy:["minecraft:lit_redstone_ore","minecraft:gold_ore","minecraft:iron_ore","minecraft:coal_ore","minecraft:lapis_ore","minecraft:diamond_ore","minecraft:netherrack","minecraft:glowstone","minecraft:emerald_ore","minecraft:redstone_ore"],display:{Name:Vergunninghouder}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "iron_pickaxe",
+                    Count: 1
+                },
+                buyB: {
+                    id: "potion",tag:{CustomPotionEffects:[{Id:15,Amplifier: 0,Duration:600}],display:{Name:Jeneveraar}},
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "iron_pickaxe",tag:{CanDestroy:["minecraft:lit_redstone_ore","minecraft:gold_ore","minecraft:iron_ore","minecraft:coal_ore","minecraft:lapis_ore","minecraft:diamond_ore","minecraft:netherrack","minecraft:glowstone","minecraft:emerald_ore","minecraft:redstone_ore"],display:{Name:Vergunninghouder}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "redstone",
+                    Count: 3
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "paper",tag:{display:{Name:Vergunning}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "iron_pickaxe",
+                    Count: 1
+                },
+                buyB: {
+                    id: "paper",tag:{display:{Name:Vergunning}},
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "iron_pickaxe",tag:{CanDestroy:["minecraft:lit_redstone_ore","minecraft:gold_ore","minecraft:iron_ore","minecraft:coal_ore","minecraft:lapis_ore","minecraft:diamond_ore","minecraft:netherrack","minecraft:glowstone","minecraft:emerald_ore","minecraft:redstone_ore"],display:{Name:Vergunninghouder}},
+                    Count: 1
+                }
+            }
+        ]
+    }
+}
+++++++++++++++++++++++++++++++++++++++++++++
+
+/summon Villager ~1 ~ ~ {
+    Profession: 0,
+    CustomName: "Scheper",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Silent: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.knockbackResistance",
+            Base: "1f"
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        },
+        {
+            Name: "generic.maxHealth",
+            Base: 99999
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "beetroot",
+                    Count: 10
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "planks",
+                    Count: 2,
+                    Damage: 2
+                }
+            },
+            {
+                buy: {
+                    id: "redstone",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "bowl",
+                    Count: 3
+                }
+            },
+            {
+                buy: {
+                    id: "bread",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "cooked_mutton",
+                    Count: 3
+                }
+            }
+        ]
+    }
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+/summon Villager ~1 ~ ~ {
+    Profession: 4,
+    CustomName: "H. Burger",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Silent: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.knockbackResistance",
+            Base: "1f"
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        },
+        {
+            Name: "generic.maxHealth",
+            Base: 99999
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "rotten_flesh",
+                    Count: 8
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "redstone",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "rotten_flesh",
+                    Count: 5
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "bone",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "rotten_flesh",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "egg",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "rotten_flesh",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "apple",
+                    Count: 1
+                }
+            }
+        ]
+    }
+}
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+/summon Villager ~1 ~ ~ {
+    Profession: 4,
+    CustomName: "Yersinia",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.knockbackResistance",
+            Base: "1f"
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        },
+        {
+            Name: "generic.maxHealth",
+            Base: 99999
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "cooked_mutton",
+                    Count: 64
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "cooked_porkchop",
+                    Count: 64
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "cooked_chicken",
+                    Count: 64
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "cooked_rabbit",
+                    Count: 64
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "cooked_beef",
+                    Count: 64
+                }
+            },
+            {
+                buy: {
+                    id: "redstone",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "rabbit_stew",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "redstone",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "mushroom_stew",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "pumpkin_pie",
+                    Count: 64
+                }
+            },
+            {
+                buy: {
+                    id: "redstone",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "cookie",
+                    Count: 5
+                }
+            },
+            {
+                buy: {
+                    id: "glowstone_dust",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "milk_bucket",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "redstone",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "apple",
+                    Count: 3
+                }
+            }
+        ]
+    }
+}
+++++++++++++++++++++++++++++++
+
+/summon Villager ~1 ~ ~ {
+    Profession: 2,
+    CustomName: "Johanniter Specialist",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.knockbackResistance",
+            Base: "1f"
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        },
+        {
+            Name: "generic.maxHealth",
+            Base: 99999
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 15
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_helmet",tag:{ench:[{id:34,lvl:3},{id:4,lvl:1}],display:{Name:Johanniter}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 24
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_chestplate",tag:{ench:[{id:34,lvl:3},{id:4,lvl:1}],display:{Name:Johanniter}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 21
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_leggings",tag:{ench:[{id:34,lvl:3},{id:4,lvl:1}],display:{Name:Johanniter}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 12
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_boots",tag:{ench:[{id:34,lvl:3},{id:4,lvl:1}],display:{Name:Johanniter}},
+                    Count: 1
+                }
+            }
+        ]
+    }
+}
+
+++++++++++++++++++++++++++++++
+
+/summon Villager ~1 ~ ~ {
+    Profession: 2,
+    CustomName: "Maltezer Specialist",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.knockbackResistance",
+            Base: "1f"
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        },
+        {
+            Name: "generic.maxHealth",
+            Base: 99999
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 30
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_helmet",tag:{ench:[{id:34,lvl:3},{id:0,lvl:2}],display:{Name:Maltezer}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 48
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_chestplate",tag:{ench:[{id:34,lvl:3},{id:0,lvl:2}],display:{Name:Maltezer}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 42
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_leggings",tag:{ench:[{id:34,lvl:3},{id:0,lvl:2}],display:{Name:Maltezer}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 24
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_boots",tag:{ench:[{id:34,lvl:3},{id:0,lvl:2}],display:{Name:Maltezer}},
+                    Count: 1
+                }
+            }
+        ]
+    }
+}
+
+++++++++++++++++++++++++++++++++++++++++++++
+
+/summon Villager ~1 ~ ~ {
+    Profession: 2,
+    CustomName: "Teutoonsche Specialist",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.knockbackResistance",
+            Base: "1f"
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        },
+        {
+            Name: "generic.maxHealth",
+            Base: 99999
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 45
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_helmet",tag:{ench:[{id:34,lvl:3},{id:0,lvl:3}],display:{Name:Teutoonsch}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald_block",
+                    Count: 8
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_chestplate",tag:{ench:[{id:34,lvl:3},{id:0,lvl:3}],display:{Name:Teutoonsch}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 63
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_leggings",tag:{ench:[{id:34,lvl:3},{id:0,lvl:3}],display:{Name:Teutoonsch}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 36
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_boots",tag:{ench:[{id:34,lvl:3},{id:0,lvl:3}],display:{Name:Teutoonsch}},
+                    Count: 1
+                }
+            }
+        ]
+    }
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+/summon Villager ~1 ~ ~ {
+    Profession: 2,
+    CustomName: "Tempeliers Specialist",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.knockbackResistance",
+            Base: "1f"
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        },
+        {
+            Name: "generic.maxHealth",
+            Base: 99999
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 60
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_helmet",tag:{ench:[{id:34,lvl:3},{id:0,lvl:4}],display:{Name:Tempeliers}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald_block",
+                    Count: 10
+                },
+                buyB: {
+                    id: "emerald",
+                    Count: 6
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_chestplate",tag:{ench:[{id:34,lvl:3},{id:0,lvl:4}],display:{Name:Tempeliers}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 84
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_leggings",tag:{ench:[{id:34,lvl:3},{id:0,lvl:4}],display:{Name:Tempeliers}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 48
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_boots",tag:{ench:[{id:34,lvl:3},{id:0,lvl:4}],display:{Name:Tempeliers}},
+                    Count: 1
+                }
+            }
+        ]
+    }
+}
+++++++++++++++++++++++++++++++++++++++++++++++++
+/summon Villager ~1 ~ ~ {
+    Profession: 2,
+    CustomName: "Tafelronde Specialist",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.knockbackResistance",
+            Base: "1f"
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        },
+        {
+            Name: "generic.maxHealth",
+            Base: 99999
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "emerald_block",
+                    Count: 8
+                },
+                buyB: {
+                    id: "emerald",
+                    Count: 3
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_helmet",tag:{ench:[{id:34,lvl:3},{id:0,lvl:4},{id:7,lvl:1}],display:{Name:Tafelronde}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald_block",
+                    Count: 13
+                },
+                buyB: {
+                    id: "emerald",
+                    Count: 3
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_chestplate",tag:{ench:[{id:34,lvl:3},{id:7,lvl:1}],display:{Name:Tafelronde}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald_block",
+                    Count: 11
+                },
+                buyB: {
+                    id: "emerald",
+                    Count: 6
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_leggings",tag:{ench:[{id:34,lvl:3},{id:7,lvl:1}],display:{Name:Tafelronde}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 60
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_boots",tag:{ench:[{id:34,lvl:3},{id:7,lvl:1}],display:{Name:Tafelronde}},
+                    Count: 1
+                }
+            }
+        ]
+    }
+}
++++++++++++++++++++++++++++++++++++++++++++++++
+
+/summon Villager ~1 ~ ~ {
+    Profession: 2,
+    CustomName: "Guldensporenslag Specialist",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.knockbackResistance",
+            Base: "1f"
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        },
+        {
+            Name: "generic.maxHealth",
+            Base: 99999
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "emerald_block",
+                    Count: 10
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_helmet",tag:{ench:[{id:34,lvl:3},{id:0,lvl:4},{id:7,lvl:2}],display:{Name:Guldensporenslag}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald_block",
+                    Count: 16
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_chestplate",tag:{ench:[{id:34,lvl:3},{id:7,lvl:2}],display:{Name:Guldensporenslag}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald_block",
+                    Count: 14
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_leggings",tag:{ench:[{id:34,lvl:3},{id:7,lvl:2}],display:{Name:Guldensporenslag}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald_block",
+                    Count: 8
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_boots",tag:{ench:[{id:34,lvl:3},{id:7,lvl:2}],display:{Name:Guldensporenslag}},
+                    Count: 1
+                }
+            }
+        ]
+    }
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+/summon Villager ~1 ~ ~ {
+    Profession: 2,
+    CustomName: "Paladijn Specialist",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.knockbackResistance",
+            Base: "1f"
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        },
+        {
+            Name: "generic.maxHealth",
+            Base: 99999
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "emerald_block",
+                    Count: 11
+                },
+                buyB: {
+                    id: "emerald",
+                    Count: 6
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_helmet",tag:{ench:[{id:34,lvl:3},{id:0,lvl:4},{id:7,lvl:3}],display:{Name:Paladijn}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald_block",
+                    Count: 18
+                },
+                buyB: {
+                    id: "emerald",
+                    Count: 6
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_chestplate",tag:{ench:[{id:34,lvl:3},{id:7,lvl:3}],display:{Name:Paladijn}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald_block",
+                    Count: 16
+                },
+                buyB: {
+                    id: "emerald",
+                    Count: 3
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_leggings",tag:{ench:[{id:34,lvl:3},{id:7,lvl:3}],display:{Name:Paladijn}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald_block",
+                    Count: 9
+                },
+                buyB: {
+                    id: "emerald",
+                    Count: 3
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_boots",tag:{ench:[{id:34,lvl:3},{id:7,lvl:3},{id:9,lvl:1}],display:{Name:Paladijn}},
+                    Count: 1
+                }
+            }
+        ]
+    }
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+/summon Villager ~1 ~ ~ {
+    Profession: 2,
+    CustomName: "Betaalbare zwaarden",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.knockbackResistance",
+            Base: "1f"
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        },
+        {
+            Name: "generic.maxHealth",
+            Base: 99999
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 2
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_sword",tag:{ench:[{id:34,lvl:3}],display:{Name:Rapier}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 4
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_sword",tag:{ench:[{id:34,lvl:3},{id:16,lvl:1}],display:{Name:Degen}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 8
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_sword",tag:{ench:[{id:34,lvl:3},{id:17,lvl:1}],display:{Name:Dussack}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 16
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_sword",tag:{ench:[{id:34,lvl:3},{id:17,lvl:2}],display:{Name:Hartsvanger}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 32
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_sword",tag:{ench:[{id:34,lvl:3},{id:17,lvl:3}],display:{Name:Katzbalger}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 64
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_sword",tag:{ench:[{id:34,lvl:3},{id:17,lvl:4}],display:{Name:Claymore}},
+                    Count: 1
+                }
+            }
+        ]
+    }
+}
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+/summon Villager ~1 ~ ~ {
+    Profession: 2,
+    CustomName: "Exclusieve zwaarden",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.knockbackResistance",
+            Base: "1f"
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        },
+        {
+            Name: "generic.maxHealth",
+            Base: 99999
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "emerald_block",
+                    Count: 14
+                },
+                buyB: {
+                    id: "emerald",
+                    Count: 2
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_sword",tag:{ench:[{id:34,lvl:3},{id:17,lvl:5}],display:{Name:Prik}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald_block",
+                    Count: 21
+                },
+                buyB: {
+                    id: "emerald",
+                    Count: 3
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_sword",tag:{ench:[{id:34,lvl:3},{id:17,lvl:5},{id:20,lvl:1}],display:{Name:Tyrfing}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald_block",
+                    Count: 32
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_sword",tag:{ench:[{id:34,lvl:3},{id:17,lvl:5},{id:20,lvl:1},{id:19,lvl:1}],display:{Name:Vilardell}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald_block",
+                    Count: 48
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_sword",tag:{ench:[{id:34,lvl:3},{id:17,lvl:5},{id:20,lvl:2},{id:19,lvl:1}],display:{Name:Surtalogi}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald_block",
+                    Count: 64
+                },
+                buyB: {
+                    id: "emerald_block",
+                    Count: 8
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_sword",tag:{ench:[{id:34,lvl:3},{id:17,lvl:5},{id:20,lvl:2},{id:19,lvl:2}],display:{Name:Excalibur}},
+                    Count: 1
+                }
+            }
+        ]
+    }
+}
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+/summon Villager ~1 ~ ~ {
+    Profession: 2,
+    CustomName: "Wibra verkoopster",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.knockbackResistance",
+            Base: "1f"
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        },
+        {
+            Name: "generic.maxHealth",
+            Base: 99999
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "apple",
+                    Count: 1
+                },
+                buyB: {
+                    id: "egg",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "leather_helmet",tag:{display:{color:16777215,Name:Wibra}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "apple",
+                    Count: 1
+                },
+                buyB: {
+                    id: "egg",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "leather_chestplate",tag:{display:{color:16777215,Name:Wibra}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "apple",
+                    Count: 1
+                },
+                buyB: {
+                    id: "egg",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "leather_leggings",tag:{display:{color:16777215,Name:Wibra}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "apple",
+                    Count: 1
+                },
+                buyB: {
+                    id: "egg",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "leather_boots",tag:{display:{color:16777215,Name:Wibra}},
+                    Count: 1
+                }
+            }
+        ]
+    }
+}
+++++++++++++++++++++++++++++++++++++++++++++++
+/summon Villager ~1 ~ ~ {
+    Profession: 2,
+    CustomName: "Wibra verkoopster",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.knockbackResistance",
+            Base: "1f"
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        },
+        {
+            Name: "generic.maxHealth",
+            Base: 99999
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "apple",
+                    Count: 1
+                },
+                buyB: {
+                    id: "egg",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "leather_helmet",tag:{display:{color:6717235,Name:Wibra}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "apple",
+                    Count: 1
+                },
+                buyB: {
+                    id: "egg",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "leather_chestplate",tag:{display:{color:6717235,Name:Wibra}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "apple",
+                    Count: 1
+                },
+                buyB: {
+                    id: "egg",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "leather_leggings",tag:{display:{color:6717235,Name:Wibra}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "apple",
+                    Count: 1
+                },
+                buyB: {
+                    id: "egg",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "leather_boots",tag:{display:{color:6717235,Name:Wibra}},
+                    Count: 1
+                }
+            }
+        ]
+    }
+}
+++++++++++++++++++++++++++++++++++++++++++++++
+
+/summon Villager ~1 ~ ~ {
+    Profession: 2,
+    CustomName: "Wibra verkoopster",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.knockbackResistance",
+            Base: "1f"
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        },
+        {
+            Name: "generic.maxHealth",
+            Base: 99999
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "apple",
+                    Count: 1
+                },
+                buyB: {
+                    id: "egg",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "leather_helmet",tag:{display:{color:15892389,Name:Wibra}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "apple",
+                    Count: 1
+                },
+                buyB: {
+                    id: "egg",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "leather_chestplate",tag:{display:{color:15892389,Name:Wibra}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "apple",
+                    Count: 1
+                },
+                buyB: {
+                    id: "egg",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "leather_leggings",tag:{display:{color:15892389,Name:Wibra}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "apple",
+                    Count: 1
+                },
+                buyB: {
+                    id: "egg",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "leather_boots",tag:{display:{color:15892389,Name:Wibra}},
+                    Count: 1
+                }
+            }
+        ]
+    }
+}
+++++++++++++++++++++++++++++++++++++++++++++++
+
+
+/summon Villager ~1 ~ ~ {
+    Profession: 2,
+    CustomName: "Wibra verkoopster",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.knockbackResistance",
+            Base: "1f"
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        },
+        {
+            Name: "generic.maxHealth",
+            Base: 99999
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "apple",
+                    Count: 1
+                },
+                buyB: {
+                    id: "egg",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "leather_helmet",tag:{display:{color:15066419,Name:Wibra}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "apple",
+                    Count: 1
+                },
+                buyB: {
+                    id: "egg",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "leather_chestplate",tag:{display:{color:15066419,Name:Wibra}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "apple",
+                    Count: 1
+                },
+                buyB: {
+                    id: "egg",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "leather_leggings",tag:{display:{color:15066419,Name:Wibra}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "apple",
+                    Count: 1
+                },
+                buyB: {
+                    id: "egg",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "leather_boots",tag:{display:{color:15066419,Name:Wibra}},
+                    Count: 1
+                }
+            }
+        ]
+    }
+}
+++++++++++++++++++++++++++++++++++++++++++++++
+
+black 1644825 
+red 10040115 
+Green 6717235 
+brown 6704179 
+blue 3361970 
+Purple 8339378 
+Cyan 5013401 
+Light Gray 10066329 
+Gray 5000268 
+Pink 15892389 
+Lime 8375321 
+Yellow 15066419 
+Light Blue 6724056 
+Magenta 11685080 
+Orange 14188339 
+white 16777215
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+/summon Villager ~1 ~ ~ {
+    Profession: 2,
+    CustomName: "Wibra verkoopster",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.knockbackResistance",
+            Base: "1f"
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        },
+        {
+            Name: "generic.maxHealth",
+            Base: 99999
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "apple",
+                    Count: 1
+                },
+                buyB: {
+                    id: "egg",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "wooden_sword",tag:{display:{Name:Wibra}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "apple",
+                    Count: 1
+                },
+                buyB: {
+                    id: "egg",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "bow",tag:{display:{Name:Wibra}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "apple",
+                    Count: 1
+                },
+                buyB: {
+                    id: "egg",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "birch_boat",tag:{display:{Name:Wibra}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "apple",
+                    Count: 1
+                },
+                buyB: {
+                    id: "egg",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "record_mellohi",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "apple",
+                    Count: 1
+                },
+                buyB: {
+                    id: "egg",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "record_stal",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "apple",
+                    Count: 1
+                },
+                buyB: {
+                    id: "egg",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "record_strad",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "apple",
+                    Count: 1
+                },
+                buyB: {
+                    id: "egg",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "record_ward",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "apple",
+                    Count: 1
+                },
+                buyB: {
+                    id: "egg",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "record_11",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "apple",
+                    Count: 1
+                },
+                buyB: {
+                    id: "egg",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "record_wait",
+                    Count: 1
+                }
+            }
+        ]
+    }
+}
+++++++++++++++++++++++++++++++++++++++++++++++
+
+
+/summon Villager ~1 ~ ~ {
+    Profession: 1,
+    CustomName: "Emeralda",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.knockbackResistance",
+            Base: "1f"
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        },
+        {
+            Name: "generic.maxHealth",
+            Base: 99999
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "potion",Count:8,tag:{Potion:"minecraft:strength"}
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "potion",Count:8,tag:{Potion:"minecraft:strong_regeneration"}
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "potion",Count:8,tag:{Potion:"minecraft:night_vision"}
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "potion",Count:8,tag:{Potion:"minecraft:fire_resistance"}
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "lingering_potion",Count:8,tag:{Potion:"minecraft:strong_healing"}
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "splash_potion",Count:8,tag:{Potion:"minecraft:strong_healing"}
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "potion",Count:8,tag:{Potion:"minecraft:strong_healing"}
+                }
+            }
+        ]
+    }
+}
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+/summon Villager ~1 ~ ~ {
+    Profession: 1,
+    CustomName: "Emeraldo",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.knockbackResistance",
+            Base: "1f"
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        },
+        {
+            Name: "generic.maxHealth",
+            Base: 99999
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "tipped_arrow",Count:8,tag:{CustomPotionEffects:[{Id:6,Amplifier:1,Duration:8}]}
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "tipped_arrow",Count:8,tag:{CustomPotionEffects:[{Id:7,Amplifier:1,Duration:8}]}
+                }
+
+            }
+        ]
+    }
+}
+
++++++++++++++++++++++++++++++++++++
+
+
+/summon Villager ~1 ~ ~ {
+    Profession: 2,
+    CustomName: "Mv. B. Oog",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.knockbackResistance",
+            Base: "1f"
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        },
+        {
+            Name: "generic.maxHealth",
+            Base: 99999
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "bow",tag:{ench:[{id:51,lvl:1}],display:{Name:Metgezel}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 2
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "bow",tag:{ench:[{id:34,lvl:3},{id:51,lvl:1},{id:48,lvl:2}],display:{Name:Heracles}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 3
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "bow",tag:{ench:[{id:34,lvl:3},{id:51,lvl:1},{id:48,lvl:4}],display:{Name:Apollo}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 4
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "bow",tag:{ench:[{id:34,lvl:3},{id:51,lvl:1},{id:48,lvl:5},{id:49,lvl:2}],display:{Name:Artemis}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "apple",
+                    Count: 1
+                },
+                buyB: {
+                    id: "egg",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "bow",
+                    Count: 1
+                }
+            }
+        ]
+    }
+}
+
+++++++++++++++++++++++++++++++++++++++++++++
+
+/summon Villager ~1 ~ ~ {
+    Profession: 2,
+    CustomName: "Mr. S. Child",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.knockbackResistance",
+            Base: "1f"
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        },
+        {
+            Name: "generic.maxHealth",
+            Base: 99999
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "shield",tag:{BlockEntityTag:{Base:15,Patterns:[{Pattern:ts,Color:1},{Pattern:bs,Color:4},{Pattern:mc,Color:14}]},ench:[{id:70,lvl:1}]},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "shield",tag:{BlockEntityTag:{Base:1,Patterns:[{Pattern:dls,Color:15}]},ench:[{id:70,lvl:1}]},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "shield",tag:{BlockEntityTag:{Base:1,Patterns:[{Pattern:ss,Color:11},{Pattern:tt,Color:4}]},ench:[{id:70,lvl:1}]},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "shield",tag:{BlockEntityTag:{Base:2,Patterns:[{Pattern:cs,Color:15}]},ench:[{id:70,lvl:1}]},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "shield",tag:{BlockEntityTag:{Base:4,Patterns:[{Pattern:flo,Color:11}]},ench:[{id:70,lvl:1}]},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "shield",tag:{BlockEntityTag:{Base:15,Patterns:[{Pattern:ss,Color:1},{Pattern:tl,Color:4},{Pattern:tl,Color:4}]},ench:[{id:70,lvl:1}]},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+
+                maxUses: 9999999,
+                sell: {
+                    id: "shield",tag:{BlockEntityTag:{Base:1,Patterns:[{Pattern:ts,Color:0},{Pattern:bs,Color:11}]},ench:[{id:70,lvl:1}]},
+                    Count: 1
+                }
+            }
+        ]
+    }
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+/summon Villager ~1 ~ ~ {
+    Profession: 3,
+    CustomName: "Karel Hefaistos",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Silent: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.knockbackResistance",
+            Base: "1f"
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        },
+        {
+            Name: "generic.maxHealth",
+            Base: 99999
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 1
+                },
+                buyB: {
+                    id: "paper",tag:{display:{Name:Vergunning}},
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_pickaxe",tag:{CanDestroy:["minecraft:lit_redstone_ore","minecraft:gold_ore","minecraft:iron_ore","minecraft:coal_ore","minecraft:lapis_ore","minecraft:diamond_ore","minecraft:netherrack","minecraft:glowstone","minecraft:emerald_ore","minecraft:redstone_ore"],display:{Name:Vergunninghouder}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 3
+                },
+                buyB: {
+                    id: "paper",tag:{display:{Name:Vergunning}},
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "diamond_pickaxe",tag:{CanDestroy:["minecraft:lit_redstone_ore","minecraft:gold_ore","minecraft:iron_ore","minecraft:coal_ore","minecraft:lapis_ore","minecraft:diamond_ore","minecraft:netherrack","minecraft:glowstone","minecraft:emerald_ore","minecraft:redstone_ore"],ench:[{id:70,lvl:1}],display:{Name:Vergunninghouder}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "iron_ore",
+                    Count: 1
+                },
+                buyB: {
+                    id: "coal",
+                    Count: 3
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "iron_ingot",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "gold_ore",
+                    Count: 1
+                },
+                buyB: {
+                    id: "coal",
+                    Count: 3
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "gold_ingot",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "glowstone",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "iron_ingot",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "glowstone",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "gold_ingot",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "redstone_block",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "iron_ingot",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "redstone_block",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "gold_ingot",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "lapis_block",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "iron_ingot",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "lapis_block",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "gold_ingot",
+                    Count: 1
+                }
+            }
+        ]
+    }
+}
+
+++++++++++++++++++++++++++++++++++++
+
+
+witherskull, enderpearl, buskruit, spinnenoog, ei, Morgul stenen zwaard
+
+Boeken verkopen om spreuken op te zetten?
