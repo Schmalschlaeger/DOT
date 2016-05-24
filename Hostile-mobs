@@ -1,0 +1,51 @@
+/setblock 131.50554 94.000 95.44355 minecraft:mob_spawner 0 replace {EntityId: Creeper}
+/setblock 131.50554 94.000 95.44355 minecraft:mob_spawner 0 replace {EntityId: zombie}
+/setblock 62.10960 65.000 123.50571 minecraft:mob_spawner 0 replace {EntityId: Blaze}
+
+/setblock 52.33108 67.000 -1.73524 minecraft:mob_spawner 0 replace {EntityId: Cow}
+
+/setblock 52.62243 66.000 -1.32636 minecraft:mob_spawner 0 replace {EntityId: Pig}
+
+
+
+
+Lightning Bolt - /summon LightningBolt
+Giant - 	
+Undead Horses - Zombie /summon EntityHorse ~ ~ ~ {Type:3} & Skeleton /summon EntityHorse ~ ~ ~ {Type:4}
+Rabbit named "Toast" - /summon Rabbit ~ ~ ~ {CustomName:Toast}
+Dinnerbone / Grumm mobs /summon Pig ~ ~ ~ {CustomName:Dinnerbone} - /summon Cow ~ ~ ~ {CustomName:Grumm}
+jeb_ sheep - 	
+MinecartSpawner & MinecartCommandBlock - /summon MinecartSpawner & /summon MinecartCommandBlock
+The Killer Rabbit - /summon Rabbit ~ ~ ~ {RabbitType:99}
+Giant Wither - /summon WitherBoss ~ ~ ~ {Invul:25000,CustomName:Grumm}
+Giant Slime & Magmacube - /summon Slime ~ ~ ~ {Size:20} & /summon LavaSlime ~ ~ ~ {Size:20}
+Green robe villager - /summon Villager ~ ~ ~ {Profession:5}
+Broken Horse - /summon EntityHorse ~ ~ ~ {Age:-50000}
+
+
+
+
+
+/summon Skeleton ~0 ~1 ~0 {HandItems:[{id:stone_sword},{Count:2,id:emerald}],ArmorItems:[{id:leather_boots,tag:{display:{color:11731199}}},{},{},{}],CustomName:Dienaar des Doods,CustomNameVisible:1,HandDropChances:[0.0F,2.0F],SkeletonType:1}
+
+/summon Skeleton ~0 ~1 ~0 {HandItems:[{id:bow},{Count:2,id:emerald}],ArmorItems:[{id:leather_boots,tag:{display:{color:11731199}}},{},{},{}],CustomName:Dienaar des Doods,CustomNameVisible:1,HandDropChances:[0.0F,2.0F],SkeletonType:1}
+
+Create an egg spawner for this mob (1.9+)
+
+/give @p spawn_egg 1 0 {EntityTag:{id:Skeleton,SkeletonType:1,CustomName:"Dienaar van DOT",CustomNameVisible:1,PersistenceRequired:1b,HandItems:[{id:"minecraft:stone_sword",tag:{display:{Name:Morgul}},Count:1},{id:"minecraft:emerald",Count:1}],HandDropChances:[0.02F,2F],ArmorItems:[{tag:{display:{Name:"Dienaar van DOT pantoffels",color:6556576}},Count:1,id:"minecraft:leather_boots"},{},{},{}],ArmorDropChances:[0.03F,0F,0F,0F],Tags:["dvdot"]}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
