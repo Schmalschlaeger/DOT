@@ -25,15 +25,15 @@ public class Tutorial extends JavaPlugin implements Listener {
 			ScoreboardManager manager = Bukkit.getScoreboardManager();
 		    Scoreboard board = manager.getNewScoreboard();
 		    
-		 Objective obj = board.registerNewObjective("dummy", "Kills");
+		 Objective obj = board.registerNewObjective("stat.mineBlock.emerald_ore", "Smaragderts");
          obj.setDisplaySlot(DisplaySlot.SIDEBAR);
-         obj.setDisplayName(ChatColor.RED + "Kills:" + ChatColor.RESET);
+         obj.setDisplayName(ChatColor.GREEN + "Smaragderts:" + ChatColor.RESET);
          
-         Score score1 = obj.getScore(Bukkit.getOfflinePlayer(ChatColor.RED + "Kills:" + ChatColor.RESET));
+         Score score1 = obj.getScore(Bukkit.getOfflinePlayer(ChatColor.GREEN + "Smaragderts:" + ChatColor.RESET));
          Score score2 = obj.getScore(Bukkit.getOfflinePlayer(ChatColor.RED + "Deaths:" + ChatColor.RESET));
          
-         score1.setScore(20);
-         score2.setScore(10);
+         score1.setScore(0);
+         score2.setScore(0);
          
              all.setScoreboard(board);
 	 }
@@ -41,7 +41,7 @@ public class Tutorial extends JavaPlugin implements Listener {
 		@EventHandler
 		public void onPlayerJoin(PlayerJoinEvent e) {
 			Player p = e.getPlayer();
-			if (p.getWorld().getName().equals("world")) {
+			if (p.getWorld().getName().equals("DOT")) {
 		        	createScoreboard(e.getPlayer());
 			}else {
 				e.getPlayer().setScoreboard(Bukkit.getScoreboardManager().getNewScoreboard());
@@ -50,7 +50,7 @@ public class Tutorial extends JavaPlugin implements Listener {
 		
 		@EventHandler
 		public void onPlayerSwitch(PlayerChangedWorldEvent e) {
-			if (e.getPlayer().getWorld().getName().equals("world")) {
+			if (e.getPlayer().getWorld().getName().equals("DOT")) {
 				if (!e.getPlayer().getScoreboard().equals(Bukkit.getScoreboardManager())) {
 			    	createScoreboard(e.getPlayer());
 				}
