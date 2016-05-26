@@ -279,12 +279,6 @@
 }
 
 ++++++++++++++++++++++++++++++++++++++++++++++++
-draad, boog, leer, pantoffels van dot
-
-id: "leather_boots",tag:{display:{Name:"Dienaar van DOT pantoffels",color:6556576}},
-
-ArmorItems:[{tag:{display:{Name:"Dienaar van DOT pantoffels",color:6556576}}
-301 leather_boots)
 
 /summon Villager ~1 ~ ~ {
     Profession: 4,
@@ -634,18 +628,6 @@ ArmorItems:[{tag:{display:{Name:"Dienaar van DOT pantoffels",color:6556576}}
 }
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
-xxxxxxxxxxxxxxxxxx
-
-                sell: {
-                    id: "stick",tag:{ench:[{id:19,lvl:2}],display:{Name:Optater Toverstaf}},
-                    Count: 1
-                }
-
-
-/give @p minecraft:diamond_hoe 1 0 {CanDestroy:["minecraft:redstone_ore"]}
-xxxxxxxxxxxxxxxxxx
-
-
 
 /summon Villager ~1 ~ ~ {
     Profession: 1,
@@ -2133,24 +2115,6 @@ xxxxxxxxxxxxxxxxxx
 }
 ++++++++++++++++++++++++++++++++++++++++++++++
 
-black 1644825 
-red 10040115 
-Green 6717235 
-brown 6704179 
-blue 3361970 
-Purple 8339378 
-Cyan 5013401 
-Light Gray 10066329 
-Gray 5000268 
-Pink 15892389 
-Lime 8375321 
-Yellow 15066419 
-Light Blue 6724056 
-Magenta 11685080 
-Orange 14188339 
-white 16777215
-
-++++++++++++++++++++++++++++++++++++++++++++++++++++
 /summon Villager ~1 ~ ~ {
     Profession: 2,
     CustomName: "Wibra verkoopster",
@@ -2316,7 +2280,6 @@ white 16777215
 }
 ++++++++++++++++++++++++++++++++++++++++++++++
 
-
 /summon Villager ~1 ~ ~ {
     Profession: 1,
     CustomName: "Emeralda",
@@ -2418,7 +2381,6 @@ white 16777215
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-
 /summon Villager ~1 ~ ~ {
     Profession: 1,
     CustomName: "Emeraldo",
@@ -2470,7 +2432,6 @@ white 16777215
 }
 
 +++++++++++++++++++++++++++++++++++
-
 
 /summon Villager ~1 ~ ~ {
     Profession: 2,
@@ -2671,7 +2632,6 @@ white 16777215
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++
 
-
 /summon Villager ~1 ~ ~ {
     Profession: 3,
     CustomName: "Hefaistos Senior",
@@ -2769,6 +2729,7 @@ white 16777215
 }
 
 ++++++++++++++++++++++++++++++++++++
+
 /summon Villager ~1 ~ ~ {
     Profession: 3,
     CustomName: "Hefaistos Junior",
@@ -2907,11 +2868,6 @@ white 16777215
 }
 ++++++++++++++++++++++++++++++++++++
 
-Speler moet nog kunnen ruilen:
-witherskull, enderpearl, buskruit, spinnenoog, ei, Morgul stenen zwaard, cob_web
-
-Boeken verkopen om spreuken op te zetten?
-
 /summon Villager ~1 ~ ~ {
     Profession: 2,
     CustomName: "Hefaistos Junior",
@@ -2945,16 +2901,37 @@ Boeken verkopen om spreuken op te zetten?
     }
 }
 
-shears
-
-mob_spawner 1 0 {BlockEntityTag:{SpawnData:{id:Skeleton}},
-{BlockEntityTag:{EntityId:Spider}},
-{BlockEntityTag:{EntityId:"Creeper"}}
-id: "iron_pickaxe",tag:{CanDestroy:["52:50","52:51","52:53","52:54","52:55","52:56","52:57","52:58","52:59","52:60","52:61"],display:{Name:Vergunninghouder}},
-
 
 ++++++++++++++++++++++++++++++++++++++++
-Toverstaf (of Pickaxe?) die spawner kapot maakt (ook spinnenweb?). Maar pas op, niet de schapen.
+
+Speler moet nog kunnen ruilen:
+witherskull, enderpearl, buskruit, spinnenoog, ei, web, blaze_rod
+Boeken verkopen om spreuken op te zetten?
+
+id: "leather_boots",tag:{display:{Name:"Dienaar van DOT pantoffels",color:6556576}},
+
+ArmorItems:[{tag:{display:{Name:"Dienaar van DOT pantoffels",color:6556576}}
+301 leather_boots)
+
+/give @p minecraft:diamond_hoe 1 0 {CanDestroy:["minecraft:redstone_ore"]}
+
+black 1644825 
+red 10040115 
+Green 6717235 
+brown 6704179 
+blue 3361970 
+Purple 8339378 
+Cyan 5013401 
+Light Gray 10066329 
+Gray 5000268 
+Pink 15892389 
+Lime 8375321 
+Yellow 15066419 
+Light Blue 6724056 
+Magenta 11685080 
+Orange 14188339 
+white 16777215
+
 52:50 = Creeper
 52:51 = Skeleton
 52:52= Spider
@@ -2972,6 +2949,7 @@ Here's a more advanced command that creates a Zombie spawner where the zombies a
 /setblock ~ ~1 ~ minecraft:mob_spawner 0 replace {EntityId:Zombie,SpawnData:{Equipment:[{id:276,Count:1}]},SpawnPotentials:[{Type:Zombie,Weight:1,Properties:{Equipment:[{},{},{},{},{id:46,Count:1}]}}],SpawnCount:2}
 
 Blokken kunnen plaatsen
-{CanPlaceOn:["example","example"]}
+/give @p minecraft:chest 1 0 {CanPlaceOn:["dirt","stone","sand","wool","log"]}
+
 
 https://www.kirsle.net/blog/entry/minecraft-monster-spawners
