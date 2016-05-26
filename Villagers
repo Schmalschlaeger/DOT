@@ -2819,9 +2819,52 @@ white 16777215
 
 ++++++++++++++++++++++++++++++++++++
 
-
+Speler moet nog kunnen ruilen:
 witherskull, enderpearl, buskruit, spinnenoog, ei, Morgul stenen zwaard
-Pickaxe (of toverstaf?) die spawner kapot maakt (ook spinnenweb?). Maar pas op, niet de schapen.
+
+Boeken verkopen om spreuken op te zetten?
+
+/summon Villager ~1 ~ ~ {
+    Profession: 2,
+    CustomName: "Ollie Plichter",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        }
+    ],
+    Offers: {
+        Recipes: [
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 10
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "shears",tag:{ench:[{id:32,lvl:5}],
+                    CanDestroy:["mob_spawner","web"],display:{Name:Levensgenieter}},
+                    Count: 1
+                }
+            }
+        ]
+    }
+}
+
+mob_spawner 1 0 {BlockEntityTag:{SpawnData:{id:Skeleton}},
+{BlockEntityTag:{EntityId:Spider}},
+{BlockEntityTag:{EntityId:"Creeper"}}
+id: "iron_pickaxe",tag:{CanDestroy:["52:50","52:51","52:53","52:54","52:55","52:56","52:57","52:58","52:59","52:60","52:61"],display:{Name:Vergunninghouder}},
+
+
+++++++++++++++++++++++++++++++++++++++++
+Toverstaf (of Pickaxe?) die spawner kapot maakt (ook spinnenweb?). Maar pas op, niet de schapen.
 52:50 = Creeper
 52:51 = Skeleton
 52:52= Spider
@@ -2835,4 +2878,10 @@ Pickaxe (of toverstaf?) die spawner kapot maakt (ook spinnenweb?). Maar pas op, 
 52:60= Silverfish
 52:61= Blaze
 
-Boeken verkopen om spreuken op te zetten?
+Here's a more advanced command that creates a Zombie spawner where the zombies are all equipped with Diamond Swords. I found this one from the Minecraft forums (I don't know or care too much about the NBT format; I usually just create simple spawners as listed above in this post).
+/setblock ~ ~1 ~ minecraft:mob_spawner 0 replace {EntityId:Zombie,SpawnData:{Equipment:[{id:276,Count:1}]},SpawnPotentials:[{Type:Zombie,Weight:1,Properties:{Equipment:[{},{},{},{},{id:46,Count:1}]}}],SpawnCount:2}
+
+Blokken kunnen plaatsen
+{CanPlaceOn:["example","example"]}
+
+https://www.kirsle.net/blog/entry/minecraft-monster-spawners
