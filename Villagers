@@ -390,6 +390,17 @@ ArmorItems:[{tag:{display:{Name:"Dienaar van DOT pantoffels",color:6556576}}
             },
             {
                 buy: {
+                    id: "web",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "glowstone_dust",
+                    Count: 1
+                }
+            },
+            {
+                buy: {
                     id: "netherrack",
                     Count: 1
                 },
@@ -2663,7 +2674,7 @@ white 16777215
 
 /summon Villager ~1 ~ ~ {
     Profession: 3,
-    CustomName: "Karel Hefaistos",
+    CustomName: "Hefaistos Senior",
     CustomNameVisible: 1,
     Career: 1,
     CareerLevel: 42,
@@ -2713,10 +2724,77 @@ white 16777215
                 },
                 maxUses: 9999999,
                 sell: {
-                    id: "diamond_pickaxe",tag:{CanDestroy:["minecraft:lit_redstone_ore","minecraft:gold_ore","minecraft:iron_ore","minecraft:coal_ore","minecraft:lapis_ore","minecraft:diamond_ore","minecraft:netherrack","minecraft:glowstone","minecraft:emerald_ore","minecraft:redstone_ore"],ench:[{id:70,lvl:1}],display:{Name:Vergunninghouder}},
+                    id: "diamond_pickaxe",tag:{CanDestroy:["minecraft:lit_redstone_ore","minecraft:gold_ore","minecraft:iron_ore","minecraft:coal_ore","minecraft:lapis_ore","minecraft:diamond_ore","minecraft:netherrack","minecraft:glowstone","minecraft:emerald_ore","minecraft:redstone_ore"],ench:[{id:32,lvl:4},{id:70,lvl:1}],display:{Name:Vergunninghouder}},
                     Count: 1
                 }
             },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 4
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "golden_pickaxe",tag:{ench:[{id:32,lvl:3},{id:70,lvl:1}],
+                    CanDestroy:["mob_spawner"],display:{Name:Levensgenieter}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id: "emerald",
+                    Count: 3
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "shears",tag:{ench:[{id:70,lvl:1}],
+                    CanDestroy:["web"],display:{Name:Ragfijn}},
+                    Count: 1
+                }
+            },
+            {
+                buy: {
+                    id:"stone_sword",tag:{display:{Name:Morgul}},
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "emerald",
+                    Count: 21
+                }
+            }
+
+        ]
+    }
+}
+
+++++++++++++++++++++++++++++++++++++
+/summon Villager ~1 ~ ~ {
+    Profession: 3,
+    CustomName: "Hefaistos Junior",
+    CustomNameVisible: 1,
+    Career: 1,
+    CareerLevel: 42,
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
+    Silent: 1,
+    Invulnerable: 1,
+    Attributes: [
+        {
+            Name: "generic.knockbackResistance",
+            Base: "1f"
+        },
+        {
+            Name: "generic.movementSpeed",
+            Base: "0f"
+        },
+        {
+            Name: "generic.maxHealth",
+            Base: 99999
+        }
+    ],
+    Offers: {
+        Recipes: [
             {
                 buy: {
                     id: "iron_ore",
@@ -2812,21 +2890,31 @@ white 16777215
                     id: "gold_ingot",
                     Count: 1
                 }
+            },
+            {
+                buy: {
+                    id: "iron_ingot",
+                    Count: 1
+                },
+                maxUses: 9999999,
+                sell: {
+                    id: "gold_ingot",
+                    Count: 1
+                }
             }
         ]
     }
 }
-
 ++++++++++++++++++++++++++++++++++++
 
 Speler moet nog kunnen ruilen:
-witherskull, enderpearl, buskruit, spinnenoog, ei, Morgul stenen zwaard
+witherskull, enderpearl, buskruit, spinnenoog, ei, Morgul stenen zwaard, cob_web
 
 Boeken verkopen om spreuken op te zetten?
 
 /summon Villager ~1 ~ ~ {
     Profession: 2,
-    CustomName: "Ollie Plichter",
+    CustomName: "Hefaistos Junior",
     CustomNameVisible: 1,
     Career: 1,
     CareerLevel: 42,
@@ -2848,14 +2936,16 @@ Boeken verkopen om spreuken op te zetten?
                 },
                 maxUses: 9999999,
                 sell: {
-                    id: "shears",tag:{ench:[{id:32,lvl:5}],
-                    CanDestroy:["mob_spawner","web"],display:{Name:Levensgenieter}},
+                    id: "golden_pickaxe",tag:{ench:[{id:32,lvl:3}],
+                    CanDestroy:["mob_spawner"],display:{Name:Levensgenieter}},
                     Count: 1
                 }
             }
         ]
     }
 }
+
+shears
 
 mob_spawner 1 0 {BlockEntityTag:{SpawnData:{id:Skeleton}},
 {BlockEntityTag:{EntityId:Spider}},
